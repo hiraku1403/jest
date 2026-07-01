@@ -1,0 +1,9 @@
+.form       { display: flex; flex-direction: column; gap: .5rem; }
+.inputGroup { display: flex; gap: .5rem; }
+.input      { flex: 1; padding: .6rem 1rem; border: 1.5px solid var(--borda,#ddd); border-radius: 6px; font-size: 1rem; outline: none; }
+.input:focus { border-color: var(--acento,#2563eb); }
+.inputErro  { border-color: #dc2626; }
+.botao      { padding: .6rem 1.25rem; background: var(--acento,#2563eb); color:#fff; border:none; border-radius:6px; font-size:.95rem; font-weight:600; cursor:pointer; transition:background .2s; }
+.botao:hover:not(:disabled) { background:#1d4ed8; }
+.botao:disabled { opacity:.45; cursor:not-allowed; }
+.erro       { font-size:.85rem; color:#dc2626; }

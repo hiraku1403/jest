@@ -1,0 +1,5 @@
+.pagina     { max-width:var(--max-w); margin:0 auto; padding:3rem 1.5rem 5rem; }
+.header     { margin-bottom:2.5rem; text-align:center; }
+.titulo     { font-family:'Playfair Display',serif; font-size:clamp(2rem,5vw,2.8rem); font-weight:700; color:var(--texto); margin-bottom:.4rem; }
+.subtitulo  { font-size:.95rem; color:#64748b; }
+.card       { background:var(--surface); border:1px solid var(--borda); border-radius:16px; padding:2rem; box-shadow:0 4px 24px rgba(0,0,0,.06); }

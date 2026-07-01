@@ -1,0 +1,14 @@
+.container       { display:flex; flex-direction:column; gap:1rem; }
+.contador        { display:flex; gap:.5rem; align-items:center; font-size:.85rem; color:#6b7280; flex-wrap:wrap; }
+.sep             { color:#d1d5db; }
+.progressoTrilha { height:5px; background:#e5e7eb; border-radius:999px; overflow:hidden; }
+.progressoBarra  { height:100%; background:#2563eb; border-radius:999px; transition:width .4s; }
+.lista           { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:.5rem; }
+.item            { display:flex; align-items:center; gap:.75rem; padding:.75rem 1rem; background:#fff; border:1px solid #e5e7eb; border-radius:8px; transition:opacity .2s; }
+.itemConcluida   { opacity:.55; }
+.itemConcluida .texto { text-decoration:line-through; }
+.checkBtn        { background:none; border:none; font-size:1.1rem; cursor:pointer; flex-shrink:0; color:#6b7280; }
+.texto           { flex:1; font-size:.97rem; }
+.removerBtn      { background:none; border:none; font-size:1.1rem; color:#9ca3af; cursor:pointer; flex-shrink:0; line-height:1; transition:color .15s; }
+.removerBtn:hover { color:#dc2626; }
+.vazia           { text-align:center; padding:2rem; color:#9ca3af; font-style:italic; }
